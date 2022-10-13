@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: rgb(41, 72, 70);
+}
+
+.headtag{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#pag{
+    font-size: 60px;
+    margin-bottom: 1cm;
+    color: rgba(0, 0, 0, 0.982);
+}
+
+#hed{
+    font-size: 100px;
+    margin-top: 3cm;
+    color: rgb(41, 72, 70);
+}
+
+#quo{
+    color:  black;
+}
+
+.top-left {
+    font-size: 30px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+
+/* --------------------------------------container-2------------------------------------------------------ */
+
+.container-2{
+    text-align: center;
+}
+
+
+
+.coloum{
+    margin: 0 10cm 50px;
+    border-radius: 10px;
+    flex-basis: 33%
+};
+
+.card{
+    padding: 15px 25px;
+}
+.currentlo{
+    margin-left: 1cm;
+    margin-top: 2cm;
+}
+
+select{
+    height: 30px;
+    width: 400px;
+}
+
+button{
+    background-color: antiquewhite;
+    margin-left: 15cm;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+
+}
+
+/* --------------------------------Rule--------------------------------------- */
+
+.rule{
+    margin-left: 1cm;
+}
+
+/*------------------------------footer-------------------------------------- */
+
+footer{
+    background-color:gray;
+    height: 8cm;
+    width: 100%;
+}
+.foot{
+    margin-left: 2cm;
+    padding-top: 10px;
+};
+.copy{
+    text-align: center;
+}
