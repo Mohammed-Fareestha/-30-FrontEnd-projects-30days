@@ -1,0 +1,57 @@
+body{
+    background-color: aliceblue;
+}
+
+input{
+    height: 30px;
+    width: 250px;
+}
+
+.input-two{
+    margin-left: 2cm;
+}
+.fullname{
+    margin-left: 30px;
+}
+.name{
+    margin-top: 50px;
+}
+.options{
+    height: 30px;
+    width: 250px;
+}
+.area{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.dot{
+    margin-left: 30px;
+}
+
+input[type=radio] {
+    display: none;
+}
+input[type=radio] + label::before {
+    content: '';
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin: 0 0.5em;
+}
+input[type=radio]:checked + label::before {
+    background-color: rgb(29, 68, 3);
+}
+
+
+.radio2 + label::before {
+    width: 0.75em;
+    height: 0.75em;
+}
+button{
+    background-color: green;
+    color: #000;
+    height: 40px;
+    width: 100px;
+    margin: 50px;
+}
